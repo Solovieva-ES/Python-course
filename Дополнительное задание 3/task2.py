@@ -1,8 +1,8 @@
-n = int(input("Количество чисел, которые нужно суммировать: "))
 summary = 0
+n = int(input("Введите подряд числа: "))
 
-for i in range(n):
-    x = int(input())
-    summary += x
+while n != 0:
+    summary += n
+    n = int(input())
 
 print(summary)
